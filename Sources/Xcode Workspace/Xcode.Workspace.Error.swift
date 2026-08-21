@@ -5,5 +5,12 @@ extension Xcode.Workspace {
         case path
         case create
         case write
+        case read
+        case invalidBundle
+        case malformedXML
+        case invalidRoot(Swift.String)
+        case invalidAttributes(element: Swift.String)
+        case invalidAttribute(element: Swift.String, name: Swift.String)
+        case unhandledNode(Swift.String)
     }
 }

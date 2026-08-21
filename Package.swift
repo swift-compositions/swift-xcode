@@ -36,7 +36,8 @@ let package = Package(
         ),
         .testTarget(
             name: "Xcode Workspace Tests",
-            dependencies: ["Xcode Workspace"]
+            dependencies: ["Xcode Workspace"],
+            resources: [.copy("Fixtures")]
         ),
         .testTarget(
             name: "Xcode Scheme Tests",

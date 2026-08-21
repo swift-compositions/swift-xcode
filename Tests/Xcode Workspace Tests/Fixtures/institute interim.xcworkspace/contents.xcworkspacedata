@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../swift-primitives/swift-affine-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-affine-geometry-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-affine-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-algebra-modular-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-argument-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-array-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ascii-parser-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ascii-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ascii-serializer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-axis-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bifunctor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-base-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-coder-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-cursor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-formatter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-leb128-parser-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-leb128-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-parser-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-binary-serializer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-formatter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-index-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-pack-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bit-vector-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bitset-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-bool-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-boundary-facet-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-boundary-orthant-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-boundary-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-buffer-linked-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-buffer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-buffer-ring-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-buffer-slab-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-buffer-slots-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-builder-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-byte-collection-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-byte-formatter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-byte-parser-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-byte-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-byte-serializer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cardinal-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cardinal-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-carrier-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-clock-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-coder-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-collection-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-column-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-comparison-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-comparison-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-compass-cyclic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-compass-facet-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-compass-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-complex-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-coproduct-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cpu-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cursor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cyclic-index-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cyclic-iterator-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-cyclic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-decimal-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-dependency-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-deque-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-diagnostic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-dictionary-ordered-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-dictionary-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-dimension-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-direction-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-effect-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-either-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-empty-iterator-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-empty-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-equation-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-error-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-executor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-facet-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-finite-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-fixed-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-format-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-formatter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-geometry-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-glob-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-graph-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-growth-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-hash-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-hash-table-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-heap-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-index-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-infinite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-initialization-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-input-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-interval-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-interval-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-iterator-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-layout-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-lexer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-linear-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-link-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-linter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-list-linked-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-list-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-loader-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-logic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-machine-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-manifest-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-matrix-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-aligned-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-allocation-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-cursor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-foreign-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-heap-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-inline-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-iterator-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-lock-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-map-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-sequence-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-shared-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-memory-small-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-module-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-numeric-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-numeric-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-observation-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-optic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-order-finite-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-order-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ordinal-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-orthant-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ownership-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-ownership-shared-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-package-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-pair-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-parity-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-parity-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-parser-effect-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-parser-machine-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-parser-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-path-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-percent-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-polarity-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-position-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-predicate-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-product-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-property-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-queue-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-radix-formatter-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-radix-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-random-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-range-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-reference-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-render-async-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-render-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-sample-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-sector-cyclic-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-sector-orthant-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-sector-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-sequence-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-serializer-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-set-algebra-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-set-ordered-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-set-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-single-iterator-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-single-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-slab-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-slot-map-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-source-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-span-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-stack-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-standard-library-extensions">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-storage-generational-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-storage-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-storage-split-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-string-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-symmetry-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-system-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tagged-collection-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tagged-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tensor-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-terminal-input-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-terminal-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-text-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-time-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-token-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tree-keyed-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tree-n-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-tree-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-vector-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-version-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-witness-primitives">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-arm-ltd/swift-arm-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ecma/swift-ecma-48">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iec/swift-iec-61966">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iec/swift-iec-80000-13">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ieee/swift-ieee-1003">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-bcp-47">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-1035">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-1123">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-1950">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-1951">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2045">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2046">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2183">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2369">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2387">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-2822">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-3339">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-3492">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-3986">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-3987">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-4007">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-4122">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-4287">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-4291">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-4648">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5234">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5321">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5322">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5646">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5890">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-5952">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6068">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6238">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6265">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6531">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6570">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6750">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-6797">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-7405">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-7519">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-7578">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-7617">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-768">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-791">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-8058">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-8259">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-8288">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-9111">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-9293">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-9557">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ietf/swift-rfc-9562">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-incits/swift-incits-4-1986">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-intel/swift-x86-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-14496-22">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-15924">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-21320">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-3166">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-32000">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-639">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-80000-1">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-8601">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-8824">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-9899">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-iso/swift-iso-9945">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-linux-foundation/swift-linux-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-color-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-css-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-darwin-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-domain-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-email-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-emailaddress-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-epub-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-git-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-github-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-html-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ipv4-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-ipv6-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-json-feed-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-locale-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-mailgun-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-media-type-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-pdf-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-rss-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-sockets-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-spm-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-svg-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-time-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-uri-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-xcode-standard">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-css">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-cssom">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-epub">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-png">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-svg">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-w3c/swift-w3c-xml">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-whatwg/swift-whatwg-html">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-standards/swift-whatwg/swift-whatwg-url">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-arguments">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-ascii">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-async">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-clocks">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-clocks-dependencies">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-color">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-copy-on-write">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-cpu">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-css">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-css-html-layout-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-css-html-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-darwin">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-decimals">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-defunctionalize">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-diagnostics">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-domain-name-system-kernel">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-dual">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-effects">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-email-html">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-emailaddress">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-entitlement">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-environment">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-environment-dependencies">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-executors">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-file-system">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-primitives/swift-foundation-extensions">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-git">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-github">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-html">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-html-chart">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-html-fontawesome">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-html-prism">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-html-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-ip-address">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-json">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-json-web-token">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-lexer">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-linter-rules">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-linux">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-loader">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-logger-dependencies">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-logger-handlers">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-manifests">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-memory">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-observations">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-package-graph">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-package-manager">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-parsers">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-password">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-paths">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-pdf">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-pdf-html-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-pdf-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-plist">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-process">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-products">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-random">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-scheduler">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-sitemap">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-sockets-ip-address">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-source">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-sql-migrations">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-strings">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-svg">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-svg-render">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-synchronizers">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-systems">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-tensors">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-threads">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-time-based-one-time-password">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-time-to-live">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-time-to-live-dependencies">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-translating">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-translating-dependencies">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-uri">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-uuids">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-webpage">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-witnesses">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-xcode">
+   </FileRef>
+   <FileRef
+      location = "group:../swift-foundations/swift-xml">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-application-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-async-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-buffer-linear-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-cache-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-coproduct-derivation">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-declaration-derivation">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-io-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-navigation-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-pool-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-queue-linked-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-store-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-structured-queries-primitives">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-primitives/swift-witness-derivation">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-fips-180-4">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-http-standard">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-application">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-build-coordinator">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-certificate-verification">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-console">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-dependencies">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-domain-name-system">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-epub-render">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-io">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-kernel">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-linter">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-numerics">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-posix">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-signature">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-sockets">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-sql">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-sql-postgres-provider">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-stores">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-windows">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-yaml">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-tls">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-yaml-standard">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-whatwg/swift-whatwg">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-microsoft/swift-windows-32">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-iso/swift-iso-8825">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-ietf/swift-rfc-8446">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-ietf/swift-rfc-9110">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-ietf/swift-rfc-9112">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-postgresql-standard">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-standards/swift-ieee/swift-ieee-754">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-markdown-html-render">
+   </FileRef>
+   <FileRef
+      location = "container:../swift-foundations/swift-foundation-dependencies">
+   </FileRef>
+</Workspace>
