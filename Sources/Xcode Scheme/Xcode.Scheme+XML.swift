@@ -58,7 +58,11 @@ extension Xcode.Scheme {
                         XML.element(
                             "TestableReference",
                             attributes: [
-                                .init(name: "skipped", value: item.skipped ? "YES" : "NO")
+                                .init(name: "skipped", value: item.skipped ? "YES" : "NO"),
+                                .init(
+                                    name: "parallelizable",
+                                    value: item.parallelizable ? "YES" : "NO"
+                                ),
                             ],
                             children: [node(item.reference)]
                         )

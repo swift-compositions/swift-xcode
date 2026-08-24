@@ -10,10 +10,11 @@ func `scheme serialization contains typed build and test entries`() {
     )
     let scheme = Xcode.Scheme(
         build: [.init(reference: reference)],
-        test: [.init(reference: reference)]
+        test: [.init(reference: reference, parallelizable: true)]
     )
     #expect(scheme.xml.contains("BuildActionEntry"))
     #expect(scheme.xml.contains("TestableReference"))
+    #expect(scheme.xml.contains(#"parallelizable="YES""#))
 }
 
 @Test
@@ -35,4 +36,5 @@ func `no launch action is emitted, because xcodebuild segfaults on the stub`() {
     #expect(xml.contains("ProfileAction"))
     #expect(xml.contains("AnalyzeAction"))
     #expect(xml.contains("ArchiveAction"))
+    #expect(xml.contains(#"parallelizable="NO""#))
 }
