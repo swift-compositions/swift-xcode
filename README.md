@@ -19,7 +19,7 @@ let workspace = Xcode.Workspace(references: [
 try workspace.write(to: "/path/to/institute.xcworkspace")
 ```
 
-Serialization flows through the Layer-3 [swift-xml](https://github.com/swift-foundations/swift-xml) package; application consumers do not serialize W3C XML directly.
+Serialization flows through the Layer-4 [swift-xml](https://github.com/swift-compositions/swift-xml) package; application consumers do not serialize W3C XML directly.
 
 ---
 
@@ -27,7 +27,7 @@ Serialization flows through the Layer-3 [swift-xml](https://github.com/swift-fou
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-xcode.git", branch: "main")
+    .package(url: "https://github.com/swift-compositions/swift-xcode.git", branch: "main")
 ]
 ```
 

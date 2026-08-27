@@ -1,7 +1,7 @@
 # .github/metadata.yaml
 description: "Xcode workspace and scheme serialization with atomic file generation for Swift."
 topics:
-  - foundations
+  - compositions
   - xcode
   - workspace
 homepage: "https://swift-institute.org"

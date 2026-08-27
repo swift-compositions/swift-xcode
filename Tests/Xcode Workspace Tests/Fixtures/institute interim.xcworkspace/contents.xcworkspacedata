@@ -2,583 +2,583 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../swift-primitives/swift-affine-algebra-primitives">
+      location = "group:../swift-molecules/swift-affine-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-affine-geometry-primitives">
+      location = "group:../swift-molecules/swift-affine-geometry">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-affine-primitives">
+      location = "group:../swift-molecules/swift-affine">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-algebra-modular-primitives">
+      location = "group:../swift-molecules/swift-algebra-modular">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-algebra-primitives">
+      location = "group:../swift-molecules/swift-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-argument-primitives">
+      location = "group:../swift-molecules/swift-argument">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-array-primitives">
+      location = "group:../swift-molecules/swift-array">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ascii-parser-primitives">
+      location = "group:../swift-molecules/swift-ascii-parser">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ascii-primitives">
+      location = "group:../swift-molecules/swift-ascii">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ascii-serializer-primitives">
+      location = "group:../swift-molecules/swift-ascii-serializer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-axis-primitives">
+      location = "group:../swift-molecules/swift-axis">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bifunctor-primitives">
+      location = "group:../swift-molecules/swift-bifunctor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-base-primitives">
+      location = "group:../swift-molecules/swift-binary-base">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-coder-primitives">
+      location = "group:../swift-molecules/swift-binary-coder">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-cursor-primitives">
+      location = "group:../swift-molecules/swift-binary-cursor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-formatter-primitives">
+      location = "group:../swift-molecules/swift-binary-formatter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-leb128-parser-primitives">
+      location = "group:../swift-molecules/swift-binary-leb128-parser">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-leb128-primitives">
+      location = "group:../swift-molecules/swift-binary-leb128">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-parser-primitives">
+      location = "group:../swift-molecules/swift-binary-parser">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-primitives">
+      location = "group:../swift-molecules/swift-binary">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-binary-serializer-primitives">
+      location = "group:../swift-molecules/swift-binary-serializer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-algebra-primitives">
+      location = "group:../swift-molecules/swift-bit-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-finite-primitives">
+      location = "group:../swift-molecules/swift-bit-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-formatter-primitives">
+      location = "group:../swift-molecules/swift-bit-formatter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-index-primitives">
+      location = "group:../swift-molecules/swift-bit-index">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-pack-primitives">
+      location = "group:../swift-molecules/swift-bit-pack">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-primitives">
+      location = "group:../swift-molecules/swift-bit">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bit-vector-primitives">
+      location = "group:../swift-molecules/swift-bit-vector">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bitset-primitives">
+      location = "group:../swift-molecules/swift-bitset">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-bool-algebra-primitives">
+      location = "group:../swift-molecules/swift-bool-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-boundary-facet-primitives">
+      location = "group:../swift-molecules/swift-boundary-facet">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-boundary-orthant-primitives">
+      location = "group:../swift-molecules/swift-boundary-orthant">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-boundary-primitives">
+      location = "group:../swift-molecules/swift-boundary">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-buffer-linked-primitives">
+      location = "group:../swift-molecules/swift-buffer-linked">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-buffer-primitives">
+      location = "group:../swift-molecules/swift-buffer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-buffer-ring-primitives">
+      location = "group:../swift-molecules/swift-buffer-ring">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-buffer-slab-primitives">
+      location = "group:../swift-molecules/swift-buffer-slab">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-buffer-slots-primitives">
+      location = "group:../swift-molecules/swift-buffer-slots">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-builder-primitives">
+      location = "group:../swift-molecules/swift-builder">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-byte-collection-primitives">
+      location = "group:../swift-molecules/swift-byte-collection">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-byte-formatter-primitives">
+      location = "group:../swift-molecules/swift-byte-formatter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-byte-parser-primitives">
+      location = "group:../swift-molecules/swift-byte-parser">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-byte-primitives">
+      location = "group:../swift-molecules/swift-byte">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-byte-serializer-primitives">
+      location = "group:../swift-molecules/swift-byte-serializer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cardinal-algebra-primitives">
+      location = "group:../swift-molecules/swift-cardinal-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cardinal-primitives">
+      location = "group:../swift-molecules/swift-cardinal">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-carrier-primitives">
+      location = "group:../swift-molecules/swift-carrier">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-clock-primitives">
+      location = "group:../swift-molecules/swift-clock">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-coder-primitives">
+      location = "group:../swift-molecules/swift-coder">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-collection-primitives">
+      location = "group:../swift-molecules/swift-collection">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-column-primitives">
+      location = "group:../swift-molecules/swift-column">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-comparison-finite-primitives">
+      location = "group:../swift-molecules/swift-comparison-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-comparison-primitives">
+      location = "group:../swift-molecules/swift-comparison">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-compass-cyclic-primitives">
+      location = "group:../swift-molecules/swift-compass-cyclic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-compass-facet-primitives">
+      location = "group:../swift-molecules/swift-compass-facet">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-compass-primitives">
+      location = "group:../swift-molecules/swift-compass">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-complex-primitives">
+      location = "group:../swift-molecules/swift-complex">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-coproduct-primitives">
+      location = "group:../swift-molecules/swift-coproduct">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cpu-primitives">
+      location = "group:../swift-molecules/swift-cpu">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cursor-primitives">
+      location = "group:../swift-molecules/swift-cursor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cyclic-index-primitives">
+      location = "group:../swift-molecules/swift-cyclic-index">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cyclic-iterator-primitives">
+      location = "group:../swift-molecules/swift-cyclic-iterator">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-cyclic-primitives">
+      location = "group:../swift-molecules/swift-cyclic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-decimal-primitives">
+      location = "group:../swift-molecules/swift-decimal">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-dependency-primitives">
+      location = "group:../swift-molecules/swift-dependency">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-deque-primitives">
+      location = "group:../swift-molecules/swift-deque">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-diagnostic-primitives">
+      location = "group:../swift-molecules/swift-diagnostic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-dictionary-ordered-primitives">
+      location = "group:../swift-molecules/swift-dictionary-ordered">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-dictionary-primitives">
+      location = "group:../swift-molecules/swift-dictionary">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-dimension-primitives">
+      location = "group:../swift-molecules/swift-dimension">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-direction-primitives">
+      location = "group:../swift-molecules/swift-direction">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-effect-primitives">
+      location = "group:../swift-molecules/swift-effect">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-either-primitives">
+      location = "group:../swift-molecules/swift-either">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-empty-iterator-primitives">
+      location = "group:../swift-molecules/swift-empty-iterator">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-empty-primitives">
+      location = "group:../swift-molecules/swift-empty">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-equation-primitives">
+      location = "group:../swift-molecules/swift-equation">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-error-primitives">
+      location = "group:../swift-molecules/swift-error">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-executor-primitives">
+      location = "group:../swift-molecules/swift-executor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-facet-primitives">
+      location = "group:../swift-molecules/swift-facet">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-finite-algebra-primitives">
+      location = "group:../swift-molecules/swift-finite-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-finite-primitives">
+      location = "group:../swift-molecules/swift-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-fixed-primitives">
+      location = "group:../swift-molecules/swift-fixed">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-format-primitives">
+      location = "group:../swift-molecules/swift-format">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-formatter-primitives">
+      location = "group:../swift-molecules/swift-formatter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-geometry-primitives">
+      location = "group:../swift-molecules/swift-geometry">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-glob-primitives">
+      location = "group:../swift-molecules/swift-glob">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-graph-primitives">
+      location = "group:../swift-molecules/swift-graph">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-growth-primitives">
+      location = "group:../swift-molecules/swift-growth">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-hash-primitives">
+      location = "group:../swift-molecules/swift-hash">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-hash-table-primitives">
+      location = "group:../swift-molecules/swift-hash-table">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-heap-primitives">
+      location = "group:../swift-molecules/swift-heap">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-index-primitives">
+      location = "group:../swift-molecules/swift-index">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-infinite-primitives">
+      location = "group:../swift-molecules/swift-infinite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-initialization-primitives">
+      location = "group:../swift-molecules/swift-initialization">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-input-primitives">
+      location = "group:../swift-molecules/swift-input">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-interval-finite-primitives">
+      location = "group:../swift-molecules/swift-interval-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-interval-primitives">
+      location = "group:../swift-molecules/swift-interval">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-iterator-primitives">
+      location = "group:../swift-molecules/swift-iterator">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-layout-primitives">
+      location = "group:../swift-molecules/swift-layout">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-lexer-primitives">
+      location = "group:../swift-molecules/swift-lexer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-linear-primitives">
+      location = "group:../swift-molecules/swift-linear">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-link-primitives">
+      location = "group:../swift-molecules/swift-link">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-linter-primitives">
+      location = "group:../swift-molecules/swift-linter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-list-linked-primitives">
+      location = "group:../swift-molecules/swift-list-linked">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-list-primitives">
+      location = "group:../swift-molecules/swift-list">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-loader-primitives">
+      location = "group:../swift-molecules/swift-loader-vocabulary">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-logic-primitives">
+      location = "group:../swift-molecules/swift-logic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-machine-primitives">
+      location = "group:../swift-molecules/swift-machine">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-manifest-primitives">
+      location = "group:../swift-molecules/swift-manifest">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-matrix-primitives">
+      location = "group:../swift-molecules/swift-matrix">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-aligned-primitives">
+      location = "group:../swift-molecules/swift-memory-aligned">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-allocation-primitives">
+      location = "group:../swift-molecules/swift-memory-allocation">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-cursor-primitives">
+      location = "group:../swift-molecules/swift-memory-cursor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-foreign-primitives">
+      location = "group:../swift-molecules/swift-memory-foreign">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-heap-primitives">
+      location = "group:../swift-molecules/swift-memory-heap">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-inline-primitives">
+      location = "group:../swift-molecules/swift-memory-inline">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-iterator-primitives">
+      location = "group:../swift-molecules/swift-memory-iterator">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-lock-primitives">
+      location = "group:../swift-molecules/swift-memory-lock">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-map-primitives">
+      location = "group:../swift-molecules/swift-memory-map">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-primitives">
+      location = "group:../swift-molecules/swift-memory">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-sequence-primitives">
+      location = "group:../swift-molecules/swift-memory-sequence">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-shared-primitives">
+      location = "group:../swift-molecules/swift-memory-shared">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-memory-small-primitives">
+      location = "group:../swift-molecules/swift-memory-small">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-module-primitives">
+      location = "group:../swift-molecules/swift-module">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-numeric-finite-primitives">
+      location = "group:../swift-molecules/swift-numeric-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-numeric-primitives">
+      location = "group:../swift-molecules/swift-numeric">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-observation-primitives">
+      location = "group:../swift-molecules/swift-observation">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-optic-primitives">
+      location = "group:../swift-molecules/swift-optic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-order-finite-primitives">
+      location = "group:../swift-molecules/swift-order-finite">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-order-primitives">
+      location = "group:../swift-molecules/swift-order">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ordinal-primitives">
+      location = "group:../swift-molecules/swift-ordinal">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-orthant-primitives">
+      location = "group:../swift-molecules/swift-orthant">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ownership-primitives">
+      location = "group:../swift-molecules/swift-ownership">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-ownership-shared-primitives">
+      location = "group:../swift-molecules/swift-ownership-shared">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-package-primitives">
+      location = "group:../swift-molecules/swift-package">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-pair-primitives">
+      location = "group:../swift-molecules/swift-pair">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-parity-algebra-primitives">
+      location = "group:../swift-molecules/swift-parity-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-parity-primitives">
+      location = "group:../swift-molecules/swift-parity">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-parser-effect-primitives">
+      location = "group:../swift-molecules/swift-parser-effect">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-parser-machine-primitives">
+      location = "group:../swift-molecules/swift-parser-machine">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-parser-primitives">
+      location = "group:../swift-molecules/swift-parser">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-path-primitives">
+      location = "group:../swift-molecules/swift-path">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-percent-primitives">
+      location = "group:../swift-molecules/swift-percent">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-polarity-primitives">
+      location = "group:../swift-molecules/swift-polarity">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-position-primitives">
+      location = "group:../swift-molecules/swift-position">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-predicate-primitives">
+      location = "group:../swift-molecules/swift-predicate">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-product-primitives">
+      location = "group:../swift-molecules/swift-product">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-property-primitives">
+      location = "group:../swift-molecules/swift-property">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-queue-primitives">
+      location = "group:../swift-molecules/swift-queue">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-radix-formatter-primitives">
+      location = "group:../swift-molecules/swift-radix-formatter">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-radix-primitives">
+      location = "group:../swift-molecules/swift-radix">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-random-primitives">
+      location = "group:../swift-molecules/swift-random">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-range-primitives">
+      location = "group:../swift-molecules/swift-range">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-reference-primitives">
+      location = "group:../swift-molecules/swift-reference">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-render-async-primitives">
+      location = "group:../swift-molecules/swift-render-async">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-render-primitives">
+      location = "group:../swift-molecules/swift-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-sample-primitives">
+      location = "group:../swift-molecules/swift-sample">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-sector-cyclic-primitives">
+      location = "group:../swift-molecules/swift-sector-cyclic">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-sector-orthant-primitives">
+      location = "group:../swift-molecules/swift-sector-orthant">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-sector-primitives">
+      location = "group:../swift-molecules/swift-sector">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-sequence-primitives">
+      location = "group:../swift-molecules/swift-sequence">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-serializer-primitives">
+      location = "group:../swift-molecules/swift-serializer">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-set-algebra-primitives">
+      location = "group:../swift-molecules/swift-set-algebra">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-set-ordered-primitives">
+      location = "group:../swift-molecules/swift-set-ordered">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-set-primitives">
+      location = "group:../swift-molecules/swift-set">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-single-iterator-primitives">
+      location = "group:../swift-molecules/swift-single-iterator">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-single-primitives">
+      location = "group:../swift-molecules/swift-single">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-slab-primitives">
+      location = "group:../swift-molecules/swift-slab">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-slot-map-primitives">
+      location = "group:../swift-molecules/swift-slot-map">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-source-primitives">
+      location = "group:../swift-molecules/swift-source">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-span-primitives">
+      location = "group:../swift-molecules/swift-span">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-stack-primitives">
+      location = "group:../swift-molecules/swift-stack">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-standard-library-extensions">
+      location = "group:../swift-molecules/swift-standard-library-extensions">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-storage-generational-primitives">
+      location = "group:../swift-molecules/swift-storage-generational">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-storage-primitives">
+      location = "group:../swift-molecules/swift-storage">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-storage-split-primitives">
+      location = "group:../swift-molecules/swift-storage-split">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-string-primitives">
+      location = "group:../swift-molecules/swift-string">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-symmetry-primitives">
+      location = "group:../swift-molecules/swift-symmetry">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-system-primitives">
+      location = "group:../swift-molecules/swift-system">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tagged-collection-primitives">
+      location = "group:../swift-molecules/swift-tagged-collection">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tagged-primitives">
+      location = "group:../swift-molecules/swift-tagged">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tensor-primitives">
+      location = "group:../swift-molecules/swift-tensor">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-terminal-input-primitives">
+      location = "group:../swift-molecules/swift-terminal-input">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-terminal-primitives">
+      location = "group:../swift-molecules/swift-terminal">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-text-primitives">
+      location = "group:../swift-molecules/swift-text">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-time-primitives">
+      location = "group:../swift-molecules/swift-time">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-token-primitives">
+      location = "group:../swift-molecules/swift-token">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tree-keyed-primitives">
+      location = "group:../swift-molecules/swift-tree-keyed">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tree-n-primitives">
+      location = "group:../swift-molecules/swift-tree-n">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-tree-primitives">
+      location = "group:../swift-molecules/swift-tree">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-vector-primitives">
+      location = "group:../swift-molecules/swift-vector">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-version-primitives">
+      location = "group:../swift-molecules/swift-version">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-witness-primitives">
+      location = "group:../swift-molecules/swift-witness">
    </FileRef>
    <FileRef
       location = "group:../swift-standards/swift-arm-ltd/swift-arm-standard">
@@ -872,283 +872,283 @@
       location = "group:../swift-standards/swift-whatwg/swift-whatwg-url">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-arguments">
+      location = "group:../swift-compositions/swift-arguments">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-ascii">
+      location = "group:../swift-compositions/swift-ascii">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-async">
+      location = "group:../swift-compositions/swift-async">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-clocks">
+      location = "group:../swift-compositions/swift-clocks">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-clocks-dependencies">
+      location = "group:../swift-compositions/swift-clocks-dependencies">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-color">
+      location = "group:../swift-compositions/swift-color">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-copy-on-write">
+      location = "group:../swift-compositions/swift-copy-on-write">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-cpu">
+      location = "group:../swift-compositions/swift-cpu">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-css">
+      location = "group:../swift-compositions/swift-css">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-css-html-layout-render">
+      location = "group:../swift-compositions/swift-css-html-layout-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-css-html-render">
+      location = "group:../swift-compositions/swift-css-html-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-darwin">
+      location = "group:../swift-compositions/swift-darwin">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-decimals">
+      location = "group:../swift-compositions/swift-decimals">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-defunctionalize">
+      location = "group:../swift-compositions/swift-defunctionalize">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-diagnostics">
+      location = "group:../swift-compositions/swift-diagnostics">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-domain-name-system-kernel">
+      location = "group:../swift-compositions/swift-domain-name-system-kernel">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-dual">
+      location = "group:../swift-compositions/swift-dual">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-effects">
+      location = "group:../swift-compositions/swift-effects">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-email-html">
+      location = "group:../swift-compositions/swift-email-html">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-emailaddress">
+      location = "group:../swift-compositions/swift-emailaddress">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-entitlement">
+      location = "group:../swift-compositions/swift-entitlement">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-environment">
+      location = "group:../swift-compositions/swift-environment">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-environment-dependencies">
+      location = "group:../swift-compositions/swift-environment-dependencies">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-executors">
+      location = "group:../swift-compositions/swift-executors">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-file-system">
+      location = "group:../swift-compositions/swift-file-system">
    </FileRef>
    <FileRef
-      location = "group:../swift-primitives/swift-foundation-extensions">
+      location = "group:../swift-molecules/swift-foundation-extensions">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-git">
+      location = "group:../swift-compositions/swift-git">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-github">
+      location = "group:../swift-compositions/swift-github">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-html">
+      location = "group:../swift-compositions/swift-html">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-html-chart">
+      location = "group:../swift-compositions/swift-html-chart">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-html-fontawesome">
+      location = "group:../swift-compositions/swift-html-fontawesome">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-html-prism">
+      location = "group:../swift-compositions/swift-html-prism">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-html-render">
+      location = "group:../swift-compositions/swift-html-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-ip-address">
+      location = "group:../swift-compositions/swift-ip-address">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-json">
+      location = "group:../swift-compositions/swift-json">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-json-web-token">
+      location = "group:../swift-compositions/swift-json-web-token">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-lexer">
+      location = "group:../swift-compositions/swift-lexer">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-linter-rules">
+      location = "group:../swift-compositions/swift-linter-rules">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-linux">
+      location = "group:../swift-compositions/swift-linux">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-loader">
+      location = "group:../swift-compositions/swift-loader">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-logger-dependencies">
+      location = "group:../swift-compositions/swift-logger-dependencies">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-logger-handlers">
+      location = "group:../swift-compositions/swift-logger-handlers">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-manifests">
+      location = "group:../swift-compositions/swift-manifests">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-memory">
+      location = "group:../swift-compositions/swift-memory-mapping">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-observations">
+      location = "group:../swift-compositions/swift-observations">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-package-graph">
+      location = "group:../swift-compositions/swift-package-graph">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-package-manager">
+      location = "group:../swift-compositions/swift-package-manager">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-parsers">
+      location = "group:../swift-compositions/swift-parsers">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-password">
+      location = "group:../swift-compositions/swift-password">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-paths">
+      location = "group:../swift-compositions/swift-paths">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-pdf">
+      location = "group:../swift-compositions/swift-pdf">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-pdf-html-render">
+      location = "group:../swift-compositions/swift-pdf-html-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-pdf-render">
+      location = "group:../swift-compositions/swift-pdf-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-plist">
+      location = "group:../swift-compositions/swift-plist">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-process">
+      location = "group:../swift-compositions/swift-process">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-products">
+      location = "group:../swift-compositions/swift-products">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-random">
+      location = "group:../swift-compositions/swift-random">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-scheduler">
+      location = "group:../swift-compositions/swift-scheduler">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-sitemap">
+      location = "group:../swift-compositions/swift-sitemap">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-sockets-ip-address">
+      location = "group:../swift-compositions/swift-sockets-ip-address">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-source">
+      location = "group:../swift-compositions/swift-source">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-sql-migrations">
+      location = "group:../swift-compositions/swift-sql-migrations">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-strings">
+      location = "group:../swift-compositions/swift-strings">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-svg">
+      location = "group:../swift-compositions/swift-svg">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-svg-render">
+      location = "group:../swift-compositions/swift-svg-render">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-synchronizers">
+      location = "group:../swift-compositions/swift-synchronizers">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-systems">
+      location = "group:../swift-compositions/swift-systems">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-tensors">
+      location = "group:../swift-compositions/swift-tensors">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-threads">
+      location = "group:../swift-compositions/swift-threads">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-time-based-one-time-password">
+      location = "group:../swift-compositions/swift-time-based-one-time-password">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-time-to-live">
+      location = "group:../swift-compositions/swift-time-to-live">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-time-to-live-dependencies">
+      location = "group:../swift-compositions/swift-time-to-live-dependencies">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-translating">
+      location = "group:../swift-compositions/swift-translating">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-translating-dependencies">
+      location = "group:../swift-compositions/swift-translating-dependencies">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-uri">
+      location = "group:../swift-compositions/swift-uri">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-uuids">
+      location = "group:../swift-compositions/swift-uuids">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-webpage">
+      location = "group:../swift-compositions/swift-webpage">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-witnesses">
+      location = "group:../swift-compositions/swift-witnesses">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-xcode">
+      location = "group:../swift-compositions/swift-xcode">
    </FileRef>
    <FileRef
-      location = "group:../swift-foundations/swift-xml">
+      location = "group:../swift-compositions/swift-xml">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-application-primitives">
+      location = "container:../swift-molecules/swift-application">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-async-primitives">
+      location = "container:../swift-molecules/swift-async">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-buffer-linear-primitives">
+      location = "container:../swift-molecules/swift-buffer-linear">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-cache-primitives">
+      location = "container:../swift-molecules/swift-cache">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-coproduct-derivation">
+      location = "container:../swift-molecules/swift-coproduct-derivation">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-declaration-derivation">
+      location = "container:../swift-molecules/swift-declaration-derivation">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-io-primitives">
+      location = "container:../swift-molecules/swift-io">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-navigation-primitives">
+      location = "container:../swift-molecules/swift-navigation">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-pool-primitives">
+      location = "container:../swift-molecules/swift-pool">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-queue-linked-primitives">
+      location = "container:../swift-molecules/swift-queue-linked">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-store-primitives">
+      location = "container:../swift-molecules/swift-store">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-structured-queries-primitives">
+      location = "container:../swift-molecules/swift-structured-queries">
    </FileRef>
    <FileRef
-      location = "container:../swift-primitives/swift-witness-derivation">
+      location = "container:../swift-molecules/swift-witness-derivation">
    </FileRef>
    <FileRef
       location = "container:../swift-standards/swift-fips-180-4">
@@ -1157,64 +1157,64 @@
       location = "container:../swift-standards/swift-http-standard">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-application">
+      location = "container:../swift-compositions/swift-application">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-build-coordinator">
+      location = "container:../swift-compositions/swift-build-coordinator">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-certificate-verification">
+      location = "container:../swift-compositions/swift-certificate-verification">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-console">
+      location = "container:../swift-compositions/swift-console">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-dependencies">
+      location = "container:../swift-compositions/swift-dependencies">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-domain-name-system">
+      location = "container:../swift-compositions/swift-domain-name-system">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-epub-render">
+      location = "container:../swift-compositions/swift-epub-render">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-io">
+      location = "container:../swift-compositions/swift-io">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-kernel">
+      location = "container:../swift-compositions/swift-kernel">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-linter">
+      location = "container:../swift-compositions/swift-linter">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-numerics">
+      location = "container:../swift-compositions/swift-numerics">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-posix">
+      location = "container:../swift-compositions/swift-posix">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-signature">
+      location = "container:../swift-compositions/swift-signature">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-sockets">
+      location = "container:../swift-compositions/swift-sockets">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-sql">
+      location = "container:../swift-compositions/swift-sql">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-sql-postgres-provider">
+      location = "container:../swift-compositions/swift-sql-postgres-provider">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-stores">
+      location = "container:../swift-compositions/swift-stores">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-windows">
+      location = "container:../swift-compositions/swift-windows">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-yaml">
+      location = "container:../swift-compositions/swift-yaml">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-tls">
+      location = "container:../swift-compositions/swift-tls">
    </FileRef>
    <FileRef
       location = "container:../swift-standards/swift-yaml-standard">
@@ -1244,9 +1244,9 @@
       location = "container:../swift-standards/swift-ieee/swift-ieee-754">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-markdown-html-render">
+      location = "container:../swift-compositions/swift-markdown-html-render">
    </FileRef>
    <FileRef
-      location = "container:../swift-foundations/swift-foundation-dependencies">
+      location = "container:../swift-compositions/swift-foundation-dependencies">
    </FileRef>
 </Workspace>

@@ -14,8 +14,8 @@ let package = Package(
             url: "https://github.com/swift-standards/swift-xcode-standard.git",
             branch: "main"
         ),
-        .package(url: "https://github.com/swift-foundations/swift-xml.git", branch: "main"),
-        .package(url: "https://github.com/swift-foundations/swift-file-system.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-xml.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-file-system.git", branch: "main"),
     ],
     targets: [
         .target(
