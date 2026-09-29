@@ -4,7 +4,13 @@ import PackageDescription
 
 let package = Package(
     name: "swift-xcode",
-    platforms: [.macOS(.v27)],
+    platforms: [
+        .macOS(.v27),
+        .iOS(.v27),
+        .tvOS(.v27),
+        .watchOS(.v27),
+        .visionOS(.v27),
+    ],
     products: [
         .library(name: "Xcode Workspace", targets: ["Xcode Workspace"]),
         .library(name: "Xcode Scheme", targets: ["Xcode Scheme"]),
