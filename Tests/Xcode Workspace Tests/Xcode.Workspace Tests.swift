@@ -1,5 +1,3 @@
-import CryptoKit
-import Foundation
 import Testing
 import Xcode_Workspace
 
@@ -88,24 +86,11 @@ func `workspace serialization structurally round trips`() throws {
 
 @Test
 func `supplied Institute workspace parses exactly`() throws {
-    let fixture = try #require(
-        Bundle.module.url(
-            forResource: "contents",
-            withExtension: "xcworkspacedata",
-            subdirectory: "Fixtures/institute interim.xcworkspace"
-        )
-    )
-    let data = try Data(contentsOf: fixture)
-    let digest = SHA256.hash(data: data).map { byte in
-        let component = String(byte, radix: 16)
-        return component.count == 1 ? "0\(component)" : component
-    }.joined()
-    #expect(data.count == 40_253)
-    #expect(digest == "3de9fbc56c24a41db5bea1003e491a670e77eaf1f05ead17cdb720f1c742c440")
+    let fixture = try #require(WorkspaceFixture.institute())
+    #expect(fixture.byteCount == 37_944)
+    #expect(fixture.sha256 == "a4c879296e8b36f03079b76562dee04a878357bec6094fd585d13c9cf185770d")
 
-    let workspace = try Xcode.Workspace.read(
-        from: fixture.deletingLastPathComponent().path
-    )
+    let workspace = try Xcode.Workspace.read(from: fixture.directory)
     #expect(workspace.references.count == 416)
 
     var groups = 0
