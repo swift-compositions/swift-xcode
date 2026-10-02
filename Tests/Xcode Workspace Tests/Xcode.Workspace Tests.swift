@@ -88,7 +88,7 @@ func `workspace serialization structurally round trips`() throws {
 func `supplied Institute workspace parses exactly`() throws {
     let fixture = try #require(WorkspaceFixture.institute())
     #expect(fixture.byteCount == 37_944)
-    #expect(fixture.sha256 == "a4c879296e8b36f03079b76562dee04a878357bec6094fd585d13c9cf185770d")
+    #expect(fixture.fnv1a64 == 0x83b2_324d_0407_cc8a)
 
     let workspace = try Xcode.Workspace.read(from: fixture.directory)
     #expect(workspace.references.count == 416)
