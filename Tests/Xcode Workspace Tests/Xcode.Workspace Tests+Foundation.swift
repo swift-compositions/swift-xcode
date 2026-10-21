@@ -8,8 +8,9 @@ enum WorkspaceFixture {
                 forResource: "contents",
                 withExtension: "xcworkspacedata",
                 subdirectory: "Fixtures/institute interim.xcworkspace"
-            ), let data = try? Data(contentsOf: url)
+            ), let checkedOut = try? Data(contentsOf: url)
         else { return nil }
+        let data = checkedOut.filter { $0 != 0x0D }
         let digest = data.reduce(UInt64(0xcbf2_9ce4_8422_2325)) { hash, byte in
             (hash ^ UInt64(byte)) &* 0x0000_0100_0000_01B3
         }
