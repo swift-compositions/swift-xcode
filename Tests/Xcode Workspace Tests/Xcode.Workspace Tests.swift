@@ -25,24 +25,25 @@ func `workspace parsing preserves order hierarchy and location schemes`() throws
     )
 
     #expect(
-        workspace == Xcode.Workspace(references: [
-            .file(.init(scheme: .group, path: "First")),
-            .group(
-                .init(
-                    name: "Nested",
-                    location: .init(scheme: .container, path: ""),
-                    references: [
-                        .file(
-                            .init(
-                                scheme: .other(.init(rawValue: "future")!),
-                                path: "Second"
+        workspace
+            == Xcode.Workspace(references: [
+                .file(.init(scheme: .group, path: "First")),
+                .group(
+                    .init(
+                        name: "Nested",
+                        location: .init(scheme: .container, path: ""),
+                        references: [
+                            .file(
+                                .init(
+                                    scheme: .other(.init(rawValue: "future")!),
+                                    path: "Second"
+                                )
                             )
-                        )
-                    ]
-                )
-            ),
-            .file(.init(scheme: .absolute, path: "/Third")),
-        ])
+                        ]
+                    )
+                ),
+                .file(.init(scheme: .absolute, path: "/Third")),
+            ])
     )
 }
 

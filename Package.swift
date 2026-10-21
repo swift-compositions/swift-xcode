@@ -57,11 +57,11 @@ for target in package.targets where ![.system, .binary, .plugin, .macro].contain
     target.swiftSettings =
         (target.swiftSettings ?? []) + [
             .strictMemorySafety(),
-                .enableExperimentalFeature("Lifetimes"),
-                .enableUpcomingFeature("ExistentialAny"),
+            .enableExperimentalFeature("Lifetimes"),
+            .enableUpcomingFeature("ExistentialAny"),
             .enableUpcomingFeature("InferIsolatedConformances"),
             .enableUpcomingFeature("InternalImportsByDefault"),
-                .enableUpcomingFeature("MemberImportVisibility"),
+            .enableUpcomingFeature("MemberImportVisibility"),
             .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
         ]
 }
