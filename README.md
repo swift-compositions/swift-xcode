@@ -1,93 +1,12 @@
 # swift-xcode
 
-![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
+Use this package when a tool generates or reads Xcode workspaces, or writes shared schemes into one, without Foundation. Start from `Xcode.Workspace` with `Xcode.Workspace.write(to:)` and `Xcode.Workspace.read(from:)`, and from `Xcode.Scheme` with `Xcode.Scheme.write(_:to:)`. If you only need the workspace and scheme types, use swift-xcode-standard.
 
-Xcode workspace and shared-scheme serialization with atomic file generation, without importing Foundation.
+## Laws
 
----
-
-## Quick Start
-
-```swift
-import Xcode_Workspace
-
-let workspace = Xcode.Workspace(references: [
-    .init(location: .group("Application")),
-    .init(location: .group("Packages/swift-json"))
-])
-
-try workspace.write(to: "/path/to/institute.xcworkspace")
-```
-
-Serialization flows through the Layer-4 [swift-xml](https://github.com/swift-compositions/swift-xml) package; application consumers do not serialize W3C XML directly.
-
----
-
-## Installation
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/swift-compositions/swift-xcode.git", branch: "main")
-]
-```
-
-Add a product to your target:
-
-```swift
-.target(
-    name: "YourTarget",
-    dependencies: [
-        .product(name: "Xcode Workspace", package: "swift-xcode")
-    ]
-)
-```
-
-Products:
-
-- `Xcode Workspace` exposes `Xcode.Workspace` serialization and atomic writes.
-- `Xcode Scheme` exposes `Xcode.Scheme` serialization and atomic writes.
-
-### Requirements
-
-- Swift 6.3+
-- macOS 26+
-
----
-
-## Error Handling
-
-Workspace and scheme writes throw a typed `Error` with the same three cases on
-each product (`Xcode.Workspace.Error`, `Xcode.Scheme.Error`):
-
-```
-Xcode.Workspace.Error / Xcode.Scheme.Error
-├── .path      // the destination path is invalid
-├── .create    // the container could not be created
-└── .write     // serialization could not be written atomically
-```
-
-```swift
-do {
-    try workspace.write(to: "/path/to/institute.xcworkspace")
-} catch .path {
-    // invalid destination path
-} catch .create {
-    // could not create the .xcworkspace container
-} catch .write {
-    // atomic write failed
-}
-```
-
----
-
-## Community
-
-<!-- BEGIN: discussion -->
-*Discussion thread will be created at the first public release.*
-<!-- END: discussion -->
-
----
-
-## License
-
-Apache 2.0. See [LICENSE](LICENSE.md).
+- `Xcode.Workspace.write(to:)` takes the `.xcworkspace` directory, creates it and any missing parents, and replaces `contents.xcworkspacedata` atomically. `Xcode.Workspace.read(from:)` takes the same directory and fails when that file isn't there.
+- The output is indented XML 1.0 with a UTF-8 declaration, and attribute values are XML-escaped, so `&` is written as `&amp;`. Parsing that output gives back an equal workspace. The bytes of a hand-edited file are not preserved.
+- Parsing is strict. The root must be `Workspace` with only a non-empty `version` attribute. A `FileRef` must have only a `location` attribute and no children. A `Group` must have only `location` and a non-empty `name`. Any other element, or any extra or missing attribute, fails the parse.
+- Parsing keeps the order and nesting of references. A location scheme the package doesn't know, such as `future:`, is kept rather than refused.
+- `Xcode.Scheme.write(_:to:)` takes the workspace directory and a scheme name, creates `xcshareddata/xcschemes` inside it, and replaces the `.xcscheme` file of that name atomically.
+- A scheme has no launch action, because xcodebuild crashes on a stub one. Testing and analysis use Debug, profiling and archiving use Release, and every build entry is built for testing, running, profiling, archiving and analysing. A test entry is parallelizable only when you say so.
