@@ -8,7 +8,11 @@ extension Xcode.Scheme {
         let file: File.Path.Component
         do throws(File.Path.Error) {
             directory = try File.Path(workspace) / "xcshareddata" / "xcschemes"
-            file = try File.Path.Component("\(name).xcscheme")
+        } catch {
+            throw .path
+        }
+        do throws(File.Path.Component.Error) {
+            file = try File.Path.Component("\(name).xcscheme" as Swift.String)
         } catch {
             throw .path
         }
