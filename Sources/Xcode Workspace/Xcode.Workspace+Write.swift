@@ -1,15 +1,10 @@
-private import File_System
+public import File_System
 public import Xcode_Workspace_Standard
 
 extension Xcode.Workspace {
 
-    public func write(to directory: Swift.String) throws(Error) {
-        let bundle: File.Path
-        do throws(File.Path.Error) {
-            bundle = try File.Path(directory)
-        } catch {
-            throw .path
-        }
+    public func write(to directory: File.Directory) throws(Error) {
+        let bundle = directory.path
         do throws(File.System.Create.Directory.Error) {
             try File.System.Create.Directory.create(at: bundle, createIntermediates: true)
         } catch {

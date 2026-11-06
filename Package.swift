@@ -42,7 +42,10 @@ let package = Package(
         ),
         .testTarget(
             name: "Xcode Workspace Tests",
-            dependencies: ["Xcode Workspace"],
+            dependencies: [
+                "Xcode Workspace",
+                .product(name: "File System", package: "swift-file-system"),
+            ],
             resources: [.copy("Fixtures")]
         ),
         .testTarget(

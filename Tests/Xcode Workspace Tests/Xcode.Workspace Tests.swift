@@ -1,3 +1,4 @@
+import File_System
 import Testing
 import Xcode_Workspace
 
@@ -91,7 +92,7 @@ func `supplied Institute workspace parses exactly`() throws {
     #expect(fixture.byteCount == 37_944)
     #expect(fixture.fnv1a64 == 0x83b2_324d_0407_cc8a)
 
-    let workspace = try Xcode.Workspace.read(from: fixture.directory)
+    let workspace = try Xcode.Workspace.read(from: File.Directory(validating: fixture.directory))
     #expect(workspace.references.count == 416)
 
     var groups = 0
@@ -109,8 +110,9 @@ func `supplied Institute workspace parses exactly`() throws {
 }
 
 @Test
-func `workspace reading rejects an invalid bundle`() {
+func `workspace reading rejects an invalid bundle`() throws {
+    let directory = try File.Directory(validating: "/path/that/does/not/exist.xcworkspace")
     #expect(throws: Xcode.Workspace.Error.invalidBundle) {
-        try Xcode.Workspace.read(from: "/path/that/does/not/exist.xcworkspace")
+        try Xcode.Workspace.read(from: directory)
     }
 }

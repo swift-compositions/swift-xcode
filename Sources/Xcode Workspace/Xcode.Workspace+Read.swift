@@ -1,16 +1,9 @@
-private import File_System
+public import File_System
 public import Xcode_Workspace_Standard
 
 extension Xcode.Workspace {
-    public static func read(from directory: Swift.String) throws(Error) -> Self {
-        let bundle: File.Path
-        do throws(File.Path.Error) {
-            bundle = try File.Path(directory)
-        } catch {
-            throw .path
-        }
-
-        let file = File.Directory(bundle)[file: "contents.xcworkspacedata"]
+    public static func read(from directory: File.Directory) throws(Error) -> Self {
+        let file = directory[file: "contents.xcworkspacedata"]
         guard file.stat.isFile else { throw .invalidBundle }
 
         let source: Swift.String
