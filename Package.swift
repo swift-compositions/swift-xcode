@@ -43,14 +43,14 @@ let package = Package(
         .testTarget(
             name: "Xcode Workspace Tests",
             dependencies: [
-                "Xcode Workspace",
+                .target(name: "Xcode Workspace"),
                 .product(name: "File System", package: "swift-file-system"),
             ],
             resources: [.copy("Fixtures")]
         ),
         .testTarget(
             name: "Xcode Scheme Tests",
-            dependencies: ["Xcode Scheme"]
+            dependencies: [.target(name: "Xcode Scheme")]
         ),
     ],
     swiftLanguageModes: [.v6]
