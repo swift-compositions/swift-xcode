@@ -1,6 +1,6 @@
+public import File_System
 private import XML
 public import Xcode_Workspace_Standard
-public import File_System
 
 extension Xcode.Workspace {
     public static func parse(_ source: Swift.String) throws(Error) -> Self {

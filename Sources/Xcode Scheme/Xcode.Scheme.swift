@@ -1,6 +1,6 @@
 private import File_System
-public import Xcode_Scheme_Standard
 private import XML
+public import Xcode_Scheme_Standard
 
 extension Xcode.Scheme {
 
