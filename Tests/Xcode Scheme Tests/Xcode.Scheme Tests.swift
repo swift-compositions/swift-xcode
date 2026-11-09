@@ -38,3 +38,19 @@ func `no launch action is emitted, because xcodebuild segfaults on the stub`() {
     #expect(xml.contains("ArchiveAction"))
     #expect(xml.contains(#"parallelizable="NO""#))
 }
+
+@Test
+func `a scheme name containing a slash is rejected before anything is written`() {
+    let reference = Xcode.Scheme.Reference(
+        blueprint: "Workspace-Package",
+        name: "Workspace-Package",
+        container: "container:Application"
+    )
+    let scheme = Xcode.Scheme(build: [.init(reference: reference)], test: [])
+    #expect(throws: Xcode.Scheme.Error.path) {
+        try scheme.write("../../escaped", to: "/nonexistent/Application.xcworkspace")
+    }
+    #expect(throws: Xcode.Scheme.Error.path) {
+        try scheme.write("nested/scheme", to: "/nonexistent/Application.xcworkspace")
+    }
+}
